@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lucys Baby Shower//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lucys-baby-shower-20270130@bearly-wait
+DTSTAMP:20261029T120000Z
+DTSTART:20270130T143000Z
+DTEND:20270130T173000Z
+SUMMARY:Lucy's Baby Shower - Afternoon Tea
+LOCATION:Bryn Meadows Golf\, Hotel & Spa\, Maesycwmmer\, Ystrad Mynach\, Caerphilly CF82 7SN
+DESCRIPTION:We Can Bearly Wait! A traditional afternoon tea to celebrate Lucy and the baby. Dress code: afternoon tea attire.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Lucy's Baby Shower is tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
