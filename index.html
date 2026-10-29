@@ -4,40 +4,45 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Lucy's Baby Shower</title>
-<meta name="description" content="We Can Bearly Wait! Afternoon tea for Lucy's baby shower, Saturday 30th January 2027 at Bryn Meadows. RSVP, directions, predictions and more.">
-<meta name="theme-color" content="#F7E1E0">
+<meta name="description" content="We Can Bearly Wait! A traditional afternoon tea for Lucy's baby shower, Saturday 30th January 2027 at Bryn Meadows. RSVP, directions, predictions and more.">
+<meta name="theme-color" content="#FFFFFF">
 <meta property="og:type" content="website">
 <meta property="og:title" content="We Can Bearly Wait! Lucy's Baby Shower">
-<meta property="og:description" content="Afternoon tea · Sat 30th January 2027 · 2:30 – 5:30 PM · Bryn Meadows. Tap to RSVP, play baby predictions and leave Lucy a note.">
-<meta property="og:image" content="https://stuntmantde.github.io/lucys-baby-shower/photos/lucy-and-partner.jpg">
+<meta property="og:description" content="Traditional afternoon tea · Sat 30th January 2027 · 2.30pm – 5.30pm · Bryn Meadows. Tap to RSVP, play baby predictions and leave Lucy a note.">
+<meta property="og:image" content="https://stuntmantde.github.io/lucys-baby-shower/art/invitation.jpg">
 <meta property="og:url" content="https://stuntmantde.github.io/lucys-baby-shower/">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='24' cy='26' r='16' fill='%238A5A3C'/%3E%3Ccircle cx='76' cy='26' r='16' fill='%238A5A3C'/%3E%3Ccircle cx='50' cy='56' r='38' fill='%238A5A3C'/%3E%3Cellipse cx='50' cy='68' rx='17' ry='13' fill='%23E9C9A6'/%3E%3Ccircle cx='37' cy='50' r='4' fill='%234A3226'/%3E%3Ccircle cx='63' cy='50' r='4' fill='%234A3226'/%3E%3Cellipse cx='50' cy='63' rx='6' ry='4' fill='%234A3226'/%3E%3C/svg%3E">
+<link rel="icon" href="art/bear-head.jpg">
+<link rel="apple-touch-icon" href="art/bear-head.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,400..700,100;1,9..144,400..600,100&family=Nunito:wght@400;600;700;800&family=Parisienne&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Lato:wght@400;700;900&family=Pinyon+Script&display=swap">
 <style>
-/* Layout: a single invitation "card" app — sticky header with tabs (desktop) / bottom tab bar (phone),
-   each tab a soft paper panel on a blush watercolour wash. Single light theme by design (printed-invitation look). */
+/* Layout: the printed invitation brought to life — watercolour art on white, gold engraved capitals,
+   rose calligraphy and a pink cartouche; sticky header with tabs (desktop) / bottom tab bar (phone).
+   Single light theme by design, to match the paper invitation. */
 :root {
-  --cream: #FFF8F1;      /* page ground */
-  --paper: #FFFDFB;      /* cards */
-  --blush: #F7E1E0;      /* washes, chips */
-  --rose: #E5AEB1;       /* borders, balloons */
-  --rose-deep: #A24F5A;  /* buttons, links */
-  --gold: #B88E3A;       /* script accents, rules */
-  --teddy: #8A5A3C;      /* bear, warm headings */
-  --tan: #E9C9A6;
-  --cocoa: #45302A;      /* body text */
-  --muted: #7D6660;
-  --line: #EED7D2;
-  --ok: #4F7A52;
-  --font-display: "Fraunces", "Georgia", "Times New Roman", serif;
-  --font-script: "Parisienne", "Brush Script MT", cursive;
-  --font-body: "Nunito", "Segoe UI", system-ui, -apple-system, sans-serif;
-  --radius: 22px;
-  --shadow: 0 10px 30px -14px rgba(138, 90, 60, .35), 0 2px 6px -2px rgba(138, 90, 60, .12);
-  --header-h: 64px;
+  --white: #FFFFFF;
+  --paper: #FFFDFC;
+  --blush: #F9E7E7;       /* cloud washes, plaque fill */
+  --blush-2: #F3D6D8;
+  --cream: #FBF0DA;       /* the cream balloons */
+  --rose: #C27F8B;        /* calligraphy, accents */
+  --rose-deep: #9C5666;   /* buttons, "LUCY'S" */
+  --gold: #AE8148;        /* engraved capitals, details */
+  --gold-soft: #DDBF8E;   /* hairlines, plaque border */
+  --honey: #C08B57;       /* the bear */
+  --cocoa: #5A423B;       /* body text */
+  --muted: #8C7570;
+  --line: #F1DEDC;
+  --sage: #3F7D57;
+  --font-caps: "Cinzel", "Trajan Pro", "Times New Roman", serif;
+  --font-script: "Pinyon Script", "Edwardian Script ITC", "Brush Script MT", cursive;
+  --font-serif: "Cormorant Garamond", "Garamond", "Georgia", serif;
+  --font-body: "Lato", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --radius: 26px;
+  --shadow: 0 14px 34px -20px rgba(156, 86, 102, .35), 0 2px 8px -4px rgba(174, 129, 72, .15);
+  --header-h: 66px;
   --tabbar-h: 68px;
   color-scheme: light;
 }
@@ -49,159 +54,176 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: var(--cocoa);
-  background: var(--cream);
+  background-color: var(--white);
+  /* soft watercolour clouds drifting at the page edges */
   background-image:
-    radial-gradient(60% 40% at 8% 0%, rgba(247, 225, 224, .9), transparent 70%),
-    radial-gradient(50% 35% at 100% 18%, rgba(233, 201, 166, .35), transparent 70%),
-    radial-gradient(70% 50% at 50% 100%, rgba(247, 225, 224, .7), transparent 70%);
+    radial-gradient(22% 12% at 96% 10%, rgba(243, 214, 216, .75), transparent 70%),
+    radial-gradient(16% 9% at 90% 14%, rgba(249, 231, 231, .9), transparent 70%),
+    radial-gradient(20% 11% at 3% 38%, rgba(243, 214, 216, .6), transparent 70%),
+    radial-gradient(18% 10% at 98% 66%, rgba(243, 214, 216, .55), transparent 70%),
+    radial-gradient(22% 12% at 6% 92%, rgba(251, 240, 218, .8), transparent 70%);
   background-attachment: fixed;
   min-height: 100vh;
 }
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 button, input, select, textarea { font: inherit; color: inherit; }
 a { color: var(--rose-deep); }
-:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; border-radius: 8px; }
+:focus-visible { outline: 3px solid var(--gold-soft); outline-offset: 2px; border-radius: 8px; }
 [hidden] { display: none !important; }
 
 /* ---------- header & tabs ---------- */
 body::before {
   content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
-  z-index: 30; background: rgba(255, 248, 241, .92);
+  z-index: 30; background: rgba(255, 255, 255, .96);
 }
 .topbar {
   position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
-  background: rgba(255, 248, 241, .88);
+  background: rgba(255, 255, 255, .9);
   -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }
 .topbar-inner {
-  max-width: 1040px; margin: 0 auto; min-height: var(--header-h);
+  max-width: 1080px; margin: 0 auto; min-height: var(--header-h);
   display: flex; align-items: center; justify-content: space-between; gap: 16px;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
-.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--teddy); min-width: 0; }
-.brand svg { width: 38px; height: 38px; flex: none; }
-.brand-text { display: flex; flex-direction: column; line-height: 1.1; min-width: 0; }
-.brand-script { font-family: var(--font-script); font-size: 1.55rem; color: var(--rose-deep); white-space: nowrap; }
-.brand-sub { font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 700; white-space: nowrap; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; min-width: 0; }
+.brand img { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; flex: none; border: 1.5px solid var(--gold-soft); }
+.brand-text { display: flex; flex-direction: column; line-height: 1.05; min-width: 0; }
+.brand-script { font-family: var(--font-script); font-size: 1.75rem; color: var(--rose); white-space: nowrap; }
+.brand-sub { font-family: var(--font-caps); font-size: .68rem; letter-spacing: .16em; color: var(--gold); white-space: nowrap; }
 
-.tabs { display: flex; gap: 4px; }
+.tabs { display: flex; gap: 2px; }
 .tab {
   display: flex; align-items: center; gap: 7px; padding: 8px 13px; border-radius: 999px;
-  text-decoration: none; color: var(--muted); font-weight: 700; font-size: .9rem; white-space: nowrap;
+  text-decoration: none; color: var(--muted); font-weight: 700; font-size: .88rem; white-space: nowrap;
   transition: background .2s, color .2s;
 }
 .tab svg { width: 18px; height: 18px; flex: none; }
-.tab:hover { background: var(--blush); color: var(--cocoa); }
-.tab[aria-current="page"] { background: var(--rose-deep); color: #fff; }
+.tab:hover { background: var(--blush); color: var(--rose-deep); }
+.tab[aria-current="page"] { background: var(--blush); color: var(--rose-deep); box-shadow: inset 0 0 0 1px var(--blush-2); }
 
 @media (max-width: 860px) {
-  .topbar { -webkit-backdrop-filter: none; backdrop-filter: none; background: rgba(255, 248, 241, .97); }
-  .topbar-inner { min-height: 56px; }
+  .topbar { -webkit-backdrop-filter: none; backdrop-filter: none; background: rgba(255, 255, 255, .97); }
+  .topbar-inner { min-height: 58px; }
   .tabs {
     position: fixed; left: 0; right: 0; bottom: 0; z-index: 25;
     justify-content: space-around; gap: 0;
-    background: rgba(255, 253, 251, .96);
-    -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, .97);
     border-top: 1px solid var(--line);
-    box-shadow: 0 -8px 24px -16px rgba(138, 90, 60, .35);
+    box-shadow: 0 -10px 26px -18px rgba(156, 86, 102, .4);
     padding: 6px max(6px, env(safe-area-inset-right, 0px)) calc(6px + env(safe-area-inset-bottom, 0px)) max(6px, env(safe-area-inset-left, 0px));
   }
   .tab { flex-direction: column; gap: 2px; padding: 6px 4px; font-size: .68rem; flex: 1 1 0; min-width: 0; border-radius: 14px; }
   .tab svg { width: 22px; height: 22px; }
-  .tab[aria-current="page"] { background: var(--blush); color: var(--rose-deep); }
   main { padding-bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px) + 24px) !important; }
 }
 
 /* ---------- panels ---------- */
 main {
-  max-width: 1040px; margin: 0 auto;
+  max-width: 1080px; margin: 0 auto;
   padding-block: 28px 64px;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
-.panel { display: grid; gap: 22px; animation: rise .45s ease both; }
+.panel { display: grid; gap: 24px; animation: rise .5s ease both; }
 @keyframes rise { from { opacity: .001; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 
 .card {
   background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius);
-  box-shadow: var(--shadow); padding: clamp(20px, 4vw, 34px); min-width: 0;
+  box-shadow: var(--shadow); padding: clamp(20px, 4vw, 36px); min-width: 0;
 }
-.eyebrow { font-size: .74rem; letter-spacing: .16em; text-transform: uppercase; font-weight: 800; color: var(--gold); margin: 0 0 6px; }
-h1, h2, h3 { font-family: var(--font-display); font-variation-settings: "SOFT" 100; color: var(--teddy); text-wrap: balance; margin: 0; line-height: 1.15; }
-h2 { font-size: clamp(1.6rem, 4.4vw, 2.2rem); font-weight: 600; }
-h3 { font-size: 1.2rem; font-weight: 600; }
-.lede { color: var(--muted); max-width: 62ch; margin: 8px 0 0; }
-.section-head { display: grid; gap: 2px; }
-.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 22px; align-items: start; }
+.eyebrow { font-family: var(--font-caps); font-size: .78rem; letter-spacing: .2em; text-transform: uppercase; font-weight: 500; color: var(--gold); margin: 0; }
+h1, h2, h3 { margin: 0; font-weight: 400; text-wrap: balance; }
+h2 { font-family: var(--font-script); font-size: clamp(2.3rem, 7vw, 3.1rem); color: var(--rose); line-height: 1.1; margin-top: 2px; }
+h3 { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 600; color: var(--rose-deep); }
+.lede { color: var(--muted); max-width: 62ch; margin: 6px 0 0; }
+.section-head { display: grid; gap: 0; }
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 24px; align-items: start; }
 
-/* ---------- hero ---------- */
+/* heart divider, as on the invitation */
+.divider { display: flex; align-items: center; justify-content: center; gap: 14px; color: var(--rose); margin: 12px 0; }
+.divider::before, .divider::after { content: ""; height: 1px; width: min(90px, 22%); background: var(--gold-soft); }
+.divider svg { width: 16px; height: 16px; flex: none; }
+.divider.left { justify-content: flex-start; }
+.divider.left::before { display: none; }
+
+/* ---------- hero (the invitation) ---------- */
 .hero {
-  position: relative; overflow: hidden; text-align: center;
+  position: relative; overflow: hidden;
+  display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(16px, 4vw, 40px); align-items: center;
   background:
-    radial-gradient(45% 55% at 20% 30%, rgba(229, 174, 177, .35), transparent 70%),
-    radial-gradient(40% 50% at 85% 25%, rgba(233, 201, 166, .45), transparent 70%),
-    radial-gradient(60% 50% at 50% 100%, rgba(247, 225, 224, .9), transparent 70%),
-    var(--paper);
-  padding-block: clamp(28px, 6vw, 56px) clamp(26px, 5vw, 44px);
+    radial-gradient(30% 16% at 92% 6%, rgba(243, 214, 216, .7), transparent 70%),
+    radial-gradient(26% 14% at 98% 62%, rgba(249, 231, 231, .9), transparent 70%),
+    var(--white);
+  padding-block: clamp(26px, 5vw, 48px);
 }
-.hero > * { position: relative; }
-.hero .bear { width: clamp(110px, 24vw, 150px); margin: 0 auto 6px; animation: sway 6s ease-in-out infinite; transform-origin: 50% 90%; }
-@keyframes sway { 0%, 100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
-.hero h1 {
-  font-family: var(--font-script); font-weight: 400; color: var(--rose-deep);
-  font-size: clamp(2.8rem, 11vw, 5.2rem); line-height: 1.05; font-variation-settings: normal;
+.hero-art { position: relative; justify-self: center; width: 100%; max-width: 400px; }
+.hero-art img { width: 100%; animation: float 7s ease-in-out infinite; transform-origin: 50% 0; }
+@keyframes float { 0%, 100% { transform: translateY(0) rotate(-1.2deg); } 50% { transform: translateY(-10px) rotate(1.2deg); } }
+.hero-text { text-align: center; min-width: 0; }
+.hero .caps-sm { font-family: var(--font-caps); color: var(--gold); letter-spacing: .14em; font-size: clamp(1.2rem, 3.4vw, 1.75rem); line-height: 1; margin: 0; }
+.hero .caps-lg { font-family: var(--font-caps); color: var(--gold); letter-spacing: .06em; font-size: clamp(2.5rem, 8.4vw, 4.1rem); line-height: 1; margin: 2px 0 0; font-weight: 500; }
+.hero .wait { font-family: var(--font-script); color: var(--rose); font-size: clamp(4.4rem, 15vw, 7.4rem); line-height: .82; margin: 0 0 4px; }
+.hero .join { font-family: var(--font-caps); color: var(--gold); font-size: clamp(.92rem, 2.4vw, 1.1rem); letter-spacing: .1em; margin: 0; font-weight: 600; }
+.hero .lucys { font-family: var(--font-caps); color: var(--rose-deep); font-size: clamp(2.6rem, 8.6vw, 4.2rem); letter-spacing: .1em; line-height: 1.05; margin: 6px 0 0; font-weight: 400; }
+.hero .shower { font-family: var(--font-script); color: var(--rose); font-size: clamp(3rem, 10vw, 4.8rem); line-height: .95; margin: 0; }
+
+.plaque {
+  position: relative; margin: 18px auto 0; max-width: 420px; padding: 16px 24px 12px;
+  background: linear-gradient(180deg, #FCF1F1, var(--blush));
+  border: 2px solid var(--gold-soft); border-radius: 44px;
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, .85), inset 0 0 0 6px rgba(221, 191, 142, .55), 0 10px 22px -16px rgba(156, 86, 102, .5);
 }
-.hero .for { font-family: var(--font-display); font-size: clamp(1.15rem, 3.4vw, 1.5rem); color: var(--teddy); margin: 10px 0 0; font-weight: 500; }
-.hero .for em { font-style: italic; }
-.gold-rule { width: 120px; height: 10px; margin: 16px auto; color: var(--gold); }
-.balloon { position: absolute; width: 44px; opacity: .85; animation: drift 9s ease-in-out infinite; pointer-events: none; }
-.balloon.b1 { left: 5%; top: 14%; }
-.balloon.b2 { right: 7%; top: 8%; width: 56px; animation-delay: -3s; }
-.balloon.b3 { right: 16%; bottom: 10%; width: 34px; animation-delay: -6s; }
-.balloon.b4 { left: 12%; bottom: 14%; width: 30px; animation-delay: -1.5s; }
-@keyframes drift { 0%, 100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-14px) rotate(4deg); } }
-@media (max-width: 560px) { .balloon.b3, .balloon.b4 { display: none; } .balloon.b1 { top: 4%; left: 2%; } .balloon.b2 { top: 3%; right: 2%; width: 42px; } }
+.plaque p { font-family: var(--font-caps); color: var(--gold); letter-spacing: .12em; font-size: clamp(1rem, 3vw, 1.35rem); line-height: 1.25; margin: 0; }
+.plaque .sprig { display: block; width: 120px; height: 22px; margin: 6px auto 0; }
 
-.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 12px; margin-top: 22px; text-align: left; }
-.fact { background: rgba(255, 253, 251, .85); border: 1px solid var(--line); border-radius: 16px; padding: 14px 16px; }
-.fact .k { font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 800; color: var(--gold); }
-.fact .v { font-family: var(--font-display); font-size: 1.08rem; color: var(--cocoa); font-weight: 500; line-height: 1.35; margin-top: 2px; }
+.details { font-family: var(--font-serif); font-style: italic; color: var(--gold); font-size: clamp(1.25rem, 3.6vw, 1.5rem); line-height: 1.3; font-weight: 600; margin: 16px 0 0; }
+.details .date { font-size: clamp(1.4rem, 4vw, 1.75rem); }
+.details sup { font-size: .55em; }
+.dress { font-family: var(--font-serif); font-style: italic; color: var(--muted); font-size: 1.1rem; margin: 4px 0 0; }
 
-.actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 22px; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 20px; }
 .actions.left { justify-content: flex-start; }
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
   padding: 12px 20px; border-radius: 999px; border: 1.5px solid transparent;
-  font-weight: 800; font-size: .95rem; text-decoration: none; cursor: pointer;
+  font-weight: 700; font-size: .95rem; text-decoration: none; cursor: pointer; letter-spacing: .01em;
   transition: transform .15s ease, box-shadow .2s ease, background .2s;
 }
 .btn svg { width: 18px; height: 18px; flex: none; }
-.btn-primary { background: var(--rose-deep); color: #fff; box-shadow: 0 8px 18px -10px rgba(162, 79, 90, .8); }
-.btn-primary:hover { transform: translateY(-1px); background: #8F4450; }
+.btn-primary { background: var(--rose-deep); color: #fff; box-shadow: 0 10px 20px -12px rgba(156, 86, 102, .9); }
+.btn-primary:hover { transform: translateY(-1px); background: #874655; }
 .btn-soft { background: var(--blush); color: var(--rose-deep); }
-.btn-soft:hover { background: #F2D2D1; }
-.btn-ghost { background: transparent; border-color: var(--rose); color: var(--rose-deep); }
-.btn-ghost:hover { background: var(--blush); }
-.btn-wa { background: #1E8E4F; color: #fff; }
-.btn-wa:hover { background: #18773F; }
+.btn-soft:hover { background: var(--blush-2); }
+.btn-ghost { background: var(--white); border-color: var(--gold-soft); color: var(--gold); }
+.btn-ghost:hover { background: #FFF8EE; }
+.btn-wa { background: var(--sage); color: #fff; }
+.btn-wa:hover { background: #336A49; }
 .btn:active { transform: translateY(1px); }
+
+@media (max-width: 720px) {
+  .hero { grid-template-columns: 1fr; gap: 6px; }
+  .hero-art { max-width: 215px; }
+}
 
 /* countdown */
 .countdown { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 14px; }
-.cd-unit { background: var(--blush); border-radius: 18px; padding: 14px 6px 10px; text-align: center; }
-.cd-num { font-family: var(--font-display); font-size: clamp(1.8rem, 7vw, 2.8rem); font-weight: 600; color: var(--rose-deep); line-height: 1; font-variant-numeric: tabular-nums; }
-.cd-lbl { font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 800; color: var(--muted); margin-top: 6px; }
-.cd-done { font-family: var(--font-script); font-size: 2.4rem; color: var(--rose-deep); text-align: center; margin: 10px 0 0; }
+.cd-unit { background: linear-gradient(180deg, #FFFFFF, var(--blush)); border: 1px solid var(--line); border-radius: 20px; padding: 14px 6px 10px; text-align: center; }
+.cd-unit:nth-child(even) { background: linear-gradient(180deg, #FFFFFF, var(--cream)); }
+.cd-num { font-family: var(--font-serif); font-size: clamp(2rem, 7.5vw, 3rem); font-weight: 600; color: var(--rose-deep); line-height: 1; font-variant-numeric: lining-nums tabular-nums; }
+.cd-lbl { font-family: var(--font-caps); font-size: .66rem; letter-spacing: .16em; color: var(--gold); margin-top: 6px; }
+.cd-done { font-family: var(--font-script); font-size: 2.8rem; color: var(--rose); text-align: center; margin: 10px 0 0; }
 
 /* running order */
-.timeline { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 0; }
-.timeline li { display: grid; grid-template-columns: 78px 18px 1fr; gap: 12px; align-items: start; }
-.timeline .t { font-weight: 800; color: var(--rose-deep); font-variant-numeric: tabular-nums; padding-top: 1px; text-align: right; }
+.tea-art { width: min(100%, 330px); margin: 4px auto 6px; }
+.timeline { list-style: none; margin: 8px 0 0; padding: 0; display: grid; }
+.timeline li { display: grid; grid-template-columns: 76px 18px 1fr; gap: 12px; align-items: start; }
+.timeline .t { font-family: var(--font-serif); font-style: italic; font-weight: 600; font-size: 1.1rem; color: var(--gold); padding-top: 0; text-align: right; line-height: 1.5; font-variant-numeric: lining-nums; }
 .timeline .dot { position: relative; height: 100%; }
-.timeline .dot::before { content: ""; position: absolute; left: 50%; top: 7px; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: var(--paper); border: 3px solid var(--gold); }
-.timeline .dot::after { content: ""; position: absolute; left: 50%; top: 22px; bottom: -6px; width: 2px; margin-left: -1px; background: var(--line); }
+.timeline .dot::before { content: ""; position: absolute; left: 50%; top: 8px; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: var(--blush); border: 2px solid var(--rose); }
+.timeline .dot::after { content: ""; position: absolute; left: 50%; top: 23px; bottom: -6px; width: 1px; background: var(--gold-soft); }
 .timeline li:last-child .dot::after { display: none; }
 .timeline .what { padding-bottom: 16px; }
 .timeline .what b { display: block; color: var(--cocoa); }
@@ -211,13 +233,13 @@ h3 { font-size: 1.2rem; font-weight: 600; }
 /* ---------- forms ---------- */
 form { display: grid; gap: 16px; }
 .field { display: grid; gap: 6px; min-width: 0; }
-.field > label, .legend { font-weight: 800; font-size: .92rem; color: var(--cocoa); }
-.hint { font-weight: 600; color: var(--muted); font-size: .82rem; }
+.field > label, .legend { font-weight: 700; font-size: .92rem; color: var(--cocoa); }
+.hint { font-weight: 400; color: var(--muted); font-size: .82rem; }
 input[type="text"], input[type="number"], input[type="date"], input[type="time"], select, textarea {
   width: 100%; padding: 12px 14px; border-radius: 14px; border: 1.5px solid var(--line);
   background: #fff; transition: border-color .2s, box-shadow .2s; min-width: 0;
 }
-input:focus, select:focus, textarea:focus { outline: none; border-color: var(--rose); box-shadow: 0 0 0 4px rgba(229, 174, 177, .3); }
+input:focus, select:focus, textarea:focus { outline: none; border-color: var(--rose); box-shadow: 0 0 0 4px rgba(243, 214, 216, .6); }
 textarea { min-height: 110px; resize: vertical; }
 .row-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr)); gap: 14px; }
 fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: 8px; min-width: 0; }
@@ -229,95 +251,98 @@ fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: 8px; min-width:
   border: 1.5px solid var(--line); background: #fff; font-weight: 700; font-size: .9rem; cursor: pointer;
   transition: background .2s, border-color .2s, color .2s;
 }
-.choice input:checked + span { background: var(--blush); border-color: var(--rose-deep); color: var(--rose-deep); }
-.choice input:focus-visible + span { outline: 3px solid var(--gold); outline-offset: 2px; }
+.choice input:checked + span { background: var(--blush); border-color: var(--rose); color: var(--rose-deep); }
+.choice input:focus-visible + span { outline: 3px solid var(--gold-soft); outline-offset: 2px; }
 .error { color: #A3332B; font-weight: 700; font-size: .88rem; margin: 0; }
 
 .confirm {
-  border: 1.5px dashed var(--rose); background: linear-gradient(180deg, var(--blush), var(--paper));
-  border-radius: 18px; padding: 20px; display: grid; gap: 10px; animation: rise .4s ease both;
+  border: 2px solid var(--gold-soft); background: linear-gradient(180deg, #FCF1F1, var(--white));
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, .9), inset 0 0 0 6px rgba(221, 191, 142, .45);
+  border-radius: 24px; padding: 22px; display: grid; gap: 10px; animation: rise .4s ease both;
 }
-.confirm h3 { font-family: var(--font-script); font-weight: 400; font-size: 2rem; color: var(--rose-deep); font-variation-settings: normal; }
+.confirm h3 { font-family: var(--font-script); font-weight: 400; font-size: 2.4rem; color: var(--rose); line-height: 1.1; }
 .summary { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; font-size: .95rem; }
-.summary dt { font-weight: 800; color: var(--muted); }
+.summary dt { font-weight: 700; color: var(--gold); }
 .summary dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
 .share-tip { font-size: .85rem; color: var(--muted); margin: 0; }
 
 /* ---------- venue ---------- */
-.address { font-family: var(--font-display); font-size: 1.2rem; line-height: 1.5; color: var(--cocoa); font-style: normal; margin-top: 10px; }
+.address { font-family: var(--font-serif); font-style: italic; font-weight: 600; font-size: 1.45rem; line-height: 1.35; color: var(--gold); margin-top: 8px; }
 .tips { display: grid; gap: 14px; margin: 14px 0 0; padding: 0; list-style: none; }
-.tips li { display: grid; grid-template-columns: 40px 1fr; gap: 12px; align-items: start; }
-.tip-ic { width: 40px; height: 40px; border-radius: 12px; background: var(--blush); display: grid; place-items: center; color: var(--rose-deep); }
-.tip-ic svg { width: 22px; height: 22px; }
+.tips li { display: grid; grid-template-columns: 42px 1fr; gap: 12px; align-items: start; }
+.tip-ic { width: 42px; height: 42px; border-radius: 50%; background: var(--blush); display: grid; place-items: center; color: var(--rose-deep); border: 1px solid var(--blush-2); }
+.tip-ic svg { width: 21px; height: 21px; }
 .tips b { display: block; }
 .tips p { margin: 2px 0 0; color: var(--muted); font-size: .94rem; }
 .mapcard {
-  position: relative; overflow: hidden; min-height: 220px; display: grid; place-items: center; text-align: center;
+  position: relative; overflow: hidden; min-height: 240px; display: grid; place-items: center; text-align: center; text-decoration: none;
   background:
-    repeating-linear-gradient(35deg, rgba(229, 174, 177, .18) 0 2px, transparent 2px 26px),
-    repeating-linear-gradient(-55deg, rgba(233, 201, 166, .25) 0 2px, transparent 2px 34px),
-    var(--blush);
+    radial-gradient(40% 30% at 20% 25%, rgba(243, 214, 216, .7), transparent 70%),
+    radial-gradient(40% 30% at 80% 75%, rgba(251, 240, 218, .9), transparent 70%),
+    var(--white);
 }
-.pin { width: 54px; color: var(--rose-deep); filter: drop-shadow(0 6px 8px rgba(162, 79, 90, .35)); animation: bob 2.6s ease-in-out infinite; }
+.pin { width: 50px; color: var(--rose); margin: 0 auto; filter: drop-shadow(0 6px 8px rgba(156, 86, 102, .3)); animation: bob 2.6s ease-in-out infinite; }
 @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
-.postcode { font-family: var(--font-display); font-size: 1.8rem; font-weight: 600; color: var(--teddy); letter-spacing: .04em; margin-top: 6px; }
+.postcode { font-family: var(--font-caps); font-size: 1.9rem; color: var(--gold); letter-spacing: .08em; margin-top: 6px; }
 
 /* ---------- gallery ---------- */
-.gallery { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; }
-.ph { position: relative; margin: 0; border-radius: 18px; overflow: hidden; cursor: zoom-in; background: var(--blush); border: 0; padding: 0; box-shadow: var(--shadow); }
-.ph img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
+.gallery { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; }
+.ph { position: relative; margin: 0; border-radius: 22px; overflow: hidden; cursor: zoom-in; background: var(--blush); border: 6px solid #fff; padding: 0; box-shadow: var(--shadow), 0 0 0 1px var(--line); }
+.ph img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; border-radius: 16px; }
 .ph:hover img { transform: scale(1.04); }
-.ph figcaption, .ph .cap {
+.ph .cap {
   position: absolute; left: 0; right: 0; bottom: 0; padding: 26px 12px 10px; text-align: left;
-  font-size: .82rem; font-weight: 700; color: #fff; background: linear-gradient(transparent, rgba(69, 48, 42, .7));
+  font-family: var(--font-serif); font-style: italic; font-weight: 600; font-size: 1.02rem; color: #fff;
+  background: linear-gradient(transparent, rgba(90, 66, 59, .7)); border-radius: 0 0 16px 16px;
 }
 .g1 { grid-column: span 3; grid-row: span 2; aspect-ratio: 3 / 4; }
-.g2 { grid-column: span 3; aspect-ratio: 3 / 2; }
-.g3, .g4 { grid-column: span 3; aspect-ratio: 3 / 2; }
-.g5 { grid-column: span 3; aspect-ratio: 3 / 2; }
+.g2, .g3, .g4, .g5 { grid-column: span 3; aspect-ratio: 3 / 2; }
 .g4 img { object-position: 50% 62%; }
 .g2 img { object-position: 50% 30%; }
 .g3 img { object-position: 50% 60%; }
 .g5 img { object-position: 50% 40%; }
 @media (max-width: 640px) {
-  .gallery { grid-template-columns: repeat(2, 1fr); }
+  .gallery { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .g1 { grid-column: span 2; grid-row: auto; aspect-ratio: 4 / 5; }
   .g2, .g3, .g4, .g5 { grid-column: span 1; aspect-ratio: 1 / 1; }
+  .ph { border-width: 4px; }
+  .ph .cap { font-size: .9rem; }
 }
 .lightbox {
-  position: fixed; inset: 0; z-index: 50; background: rgba(45, 30, 26, .86);
+  position: fixed; inset: 0; z-index: 50; background: rgba(60, 42, 38, .86);
   display: grid; place-items: center; padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px));
 }
 .lightbox img { max-height: 84vh; max-width: min(100%, 900px); width: auto; border-radius: 16px; box-shadow: 0 20px 60px rgba(0, 0, 0, .4); }
-.lightbox p { color: #fff; text-align: center; margin: 10px 0 0; font-weight: 700; }
-.lb-close { position: absolute; top: calc(12px + env(safe-area-inset-top, 0px)); right: calc(12px + env(safe-area-inset-right, 0px)); width: 44px; height: 44px; border-radius: 50%; border: 0; background: rgba(255, 255, 255, .9); color: var(--cocoa); font-size: 1.4rem; cursor: pointer; }
+.lightbox p { color: #fff; text-align: center; margin: 10px 0 0; font-family: var(--font-serif); font-style: italic; font-size: 1.15rem; }
+.lb-close { position: absolute; top: calc(12px + env(safe-area-inset-top, 0px)); right: calc(12px + env(safe-area-inset-right, 0px)); width: 44px; height: 44px; border-radius: 50%; border: 0; background: rgba(255, 255, 255, .92); color: var(--cocoa); font-size: 1.4rem; cursor: pointer; }
 
-.welcome { font-family: var(--font-display); font-size: 1.12rem; line-height: 1.7; max-width: 62ch; }
+.welcome { font-family: var(--font-serif); font-size: 1.28rem; line-height: 1.6; max-width: 60ch; font-weight: 500; }
 .welcome p { margin: 0 0 12px; }
-.sign { font-family: var(--font-script); font-size: 1.9rem; color: var(--rose-deep); margin: 4px 0 0; }
+.sign { font-family: var(--font-script); font-size: 2.3rem; color: var(--rose); margin: 4px 0 0; }
 
 /* ---------- guestbook & lists ---------- */
 .entries { display: grid; gap: 12px; margin-top: 4px; }
-.entry { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 14px 16px; display: grid; gap: 6px; animation: rise .35s ease both; }
+.entry { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 14px 16px; display: grid; gap: 6px; animation: rise .35s ease both; }
 .entry-top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; }
-.entry-name { font-weight: 800; color: var(--teddy); }
-.pill { font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; font-weight: 800; padding: 3px 9px; border-radius: 999px; background: var(--blush); color: var(--rose-deep); }
-.pill.advice { background: #F3E6CF; color: #7A5A1E; }
-.pill.note { background: #E8EFE3; color: var(--ok); }
+.entry-name { font-family: var(--font-serif); font-style: italic; font-weight: 600; font-size: 1.15rem; color: var(--rose-deep); }
+.pill { font-family: var(--font-caps); font-size: .62rem; letter-spacing: .14em; padding: 4px 10px; border-radius: 999px; background: var(--blush); color: var(--rose-deep); }
+.pill.advice { background: var(--cream); color: #85612B; }
+.pill.note { background: #E9F1E8; color: var(--sage); }
 .entry-msg { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
 .entry-actions { display: flex; gap: 14px; flex-wrap: wrap; }
-.linkbtn { background: none; border: 0; padding: 0; color: var(--rose-deep); font-weight: 800; font-size: .85rem; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.linkbtn { background: none; border: 0; padding: 0; color: var(--rose-deep); font-weight: 700; font-size: .85rem; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
 .linkbtn.muted { color: var(--muted); }
-.empty { text-align: center; padding: 22px; border: 1.5px dashed var(--line); border-radius: 16px; color: var(--muted); }
-.empty svg { width: 54px; margin: 0 auto 6px; }
+.empty { text-align: center; padding: 22px; border: 1.5px dashed var(--blush-2); border-radius: 18px; color: var(--muted); }
+.empty img { width: 70px; height: 70px; border-radius: 50%; object-fit: cover; margin: 0 auto 8px; border: 1.5px solid var(--gold-soft); }
 
 .dropzone {
-  position: relative; border: 2px dashed var(--rose); border-radius: 18px; background: var(--blush);
-  padding: 26px 16px; text-align: center; transition: background .2s, border-color .2s; cursor: pointer;
+  position: relative; border: 2px dashed var(--rose); border-radius: 22px;
+  background: linear-gradient(180deg, #fff, var(--blush));
+  padding: 26px 16px; text-align: center; transition: background .2s, border-color .2s; cursor: pointer; display: block;
 }
-.dropzone.over { background: #F2D2D1; border-color: var(--rose-deep); }
+.dropzone.over { background: var(--blush-2); border-color: var(--rose-deep); }
 .dropzone input { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; }
-.dropzone svg { width: 46px; color: var(--rose-deep); margin: 0 auto 6px; }
+.dropzone svg { width: 46px; color: var(--rose); margin: 0 auto 6px; }
 .dropzone b { display: block; color: var(--rose-deep); }
 .thumbs { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 10px; }
 .thumb { position: relative; aspect-ratio: 1; border-radius: 14px; overflow: hidden; background: var(--blush); }
@@ -325,26 +350,26 @@ fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: 8px; min-width:
 .thumb button { position: absolute; top: 4px; right: 4px; width: 26px; height: 26px; border-radius: 50%; border: 0; background: rgba(255, 255, 255, .92); cursor: pointer; font-weight: 800; color: var(--cocoa); line-height: 1; }
 
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
-.chip { display: inline-flex; align-items: center; gap: 6px; padding: 7px 8px 7px 14px; border-radius: 999px; background: var(--blush); color: var(--rose-deep); font-weight: 800; animation: rise .3s ease both; }
-.chip button { width: 22px; height: 22px; border-radius: 50%; border: 0; background: rgba(255, 255, 255, .8); color: var(--rose-deep); cursor: pointer; font-weight: 800; line-height: 1; }
-.chip.blue { background: #E3ECF4; color: #3E5F7E; }
-.chip.blue button { color: #3E5F7E; }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 7px 8px 7px 15px; border-radius: 999px; background: var(--blush); color: var(--rose-deep); font-family: var(--font-serif); font-style: italic; font-weight: 600; font-size: 1.1rem; animation: rise .3s ease both; }
+.chip button { width: 22px; height: 22px; border-radius: 50%; border: 0; background: rgba(255, 255, 255, .85); color: inherit; cursor: pointer; font-weight: 800; line-height: 1; font-family: var(--font-body); font-style: normal; font-size: .9rem; }
+.chip.cream { background: var(--cream); color: #85612B; }
 .inline-form { display: flex; gap: 10px; flex-wrap: wrap; }
 .inline-form input { flex: 1 1 180px; }
 
 .gift { display: grid; grid-template-columns: 64px 1fr; gap: 16px; align-items: start; }
-.gift-ic { width: 64px; height: 64px; border-radius: 18px; background: var(--blush); display: grid; place-items: center; color: var(--rose-deep); }
-.gift-ic svg { width: 34px; }
+.gift-ic { width: 64px; height: 64px; border-radius: 50%; background: var(--blush); display: grid; place-items: center; color: var(--rose-deep); border: 1px solid var(--blush-2); }
+.gift-ic svg { width: 32px; }
 
 .toast {
   position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
-  z-index: 60; background: var(--cocoa); color: #fff; padding: 12px 20px; border-radius: 999px; font-weight: 700;
+  z-index: 60; background: var(--rose-deep); color: #fff; padding: 12px 20px; border-radius: 999px; font-weight: 700;
   box-shadow: var(--shadow); max-width: calc(100% - 32px); text-align: center; animation: rise .3s ease both;
 }
 @media (max-width: 860px) { .toast { bottom: calc(var(--tabbar-h) + 18px + env(safe-area-inset-bottom, 0px)); } }
 
-footer { text-align: center; color: var(--muted); font-size: .85rem; padding-top: 6px; }
-footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(--rose-deep); display: block; }
+footer { text-align: center; color: var(--muted); font-size: .85rem; padding-top: 6px; display: grid; justify-items: center; gap: 2px; }
+footer .script { font-family: var(--font-script); font-size: 2rem; color: var(--rose); display: block; line-height: 1.2; }
+footer .caps { font-family: var(--font-caps); letter-spacing: .14em; color: var(--gold); font-size: .72rem; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
@@ -354,30 +379,13 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
 </head>
 <body>
 
-<!-- reusable artwork -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
-    <symbol id="bear" viewBox="0 0 200 190">
-      <circle cx="48" cy="50" r="30" fill="#8A5A3C"/><circle cx="48" cy="50" r="16" fill="#E9C9A6"/>
-      <circle cx="152" cy="50" r="30" fill="#8A5A3C"/><circle cx="152" cy="50" r="16" fill="#E9C9A6"/>
-      <circle cx="100" cy="106" r="74" fill="#8A5A3C"/>
-      <ellipse cx="100" cy="134" rx="34" ry="27" fill="#E9C9A6"/>
-      <circle cx="72" cy="98" r="7.5" fill="#45302A"/><circle cx="128" cy="98" r="7.5" fill="#45302A"/>
-      <circle cx="74.5" cy="95.5" r="2.2" fill="#fff"/><circle cx="130.5" cy="95.5" r="2.2" fill="#fff"/>
-      <circle cx="56" cy="126" r="10" fill="#E5AEB1" opacity=".75"/><circle cx="144" cy="126" r="10" fill="#E5AEB1" opacity=".75"/>
-      <ellipse cx="100" cy="123" rx="12" ry="8.5" fill="#45302A"/>
-      <path d="M100 131v9M88 143q12 10 24 0" stroke="#45302A" stroke-width="4" fill="none" stroke-linecap="round"/>
-      <path d="M150 20l-20 12 20 12z M172 20l20 12-20 12z" fill="#E5AEB1"/><circle cx="161" cy="32" r="8" fill="#D9939A"/>
-    </symbol>
-    <symbol id="balloon" viewBox="0 0 60 110">
-      <path d="M30 4C14 4 4 18 4 33c0 18 14 32 26 36 12-4 26-18 26-36C56 18 46 4 30 4z" fill="#E5AEB1"/>
-      <path d="M30 4c-6 6-9 18-9 30 0 14 4 28 9 35 5-7 9-21 9-35 0-12-3-24-9-30z" fill="#F7E1E0" opacity=".8"/>
-      <path d="M22 70h16l-3 8H25z" fill="none" stroke="#B88E3A" stroke-width="1.5"/>
-      <rect x="23" y="80" width="14" height="10" rx="2" fill="#E9C9A6" stroke="#B88E3A" stroke-width="1.2"/>
-    </symbol>
-    <symbol id="rule" viewBox="0 0 120 10">
-      <path d="M0 5h48M72 5h48" stroke="currentColor" stroke-width="1"/>
-      <path d="M60 0l5 5-5 5-5-5z" fill="currentColor"/><circle cx="50" cy="5" r="1.6" fill="currentColor"/><circle cx="70" cy="5" r="1.6" fill="currentColor"/>
+    <symbol id="heart" viewBox="0 0 24 24"><path d="M12 21s-8-5-8-11a4.5 4.5 0 018-2.8A4.5 4.5 0 0120 10c0 6-8 11-8 11z" fill="currentColor"/></symbol>
+    <symbol id="sprig" viewBox="0 0 120 22">
+      <path d="M8 14c10-1 22-1 34-4M112 14c-10-1-22-1-34-4" stroke="#C9A46B" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+      <path d="M18 13c-1-4 2-7 5-7-1 3-2 6-5 7zM28 11c0-4 3-6 6-6-1 3-3 6-6 6zM24 13c3-3 7-2 9 0-3 1-6 2-9 0zM102 13c1-4-2-7-5-7 1 3 2 6 5 7zM92 11c0-4-3-6-6-6 1 3 3 6 6 6zM96 13c-3-3-7-2-9 0 3 1 6 2 9 0z" fill="#D6BC8E"/>
+      <path d="M60 19s-9-5.5-9-11.5a4.6 4.6 0 019-1.6 4.6 4.6 0 019 1.6C69 13.5 60 19 60 19z" fill="#E0A7AE"/>
     </symbol>
   </defs>
 </svg>
@@ -385,16 +393,16 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
 <header class="topbar">
   <div class="topbar-inner">
     <a class="brand" href="#invite" aria-label="Lucy's Baby Shower, home">
-      <svg><use href="#bear"/></svg>
-      <span class="brand-text"><span class="brand-script">Lucy's Baby Shower</span><span class="brand-sub">Sat 30 Jan 2027</span></span>
+      <img src="art/bear-head.jpg" alt="" width="44" height="44">
+      <span class="brand-text"><span class="brand-script">Lucy's Baby Shower</span><span class="brand-sub">SAT 30 JAN 2027</span></span>
     </a>
     <nav class="tabs" aria-label="Sections">
-      <a class="tab" href="#invite" data-tab="invite"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Invite</a>
-      <a class="tab" href="#rsvp" data-tab="rsvp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>RSVP</a>
-      <a class="tab" href="#venue" data-tab="venue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-12a7 7 0 10-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>Venue</a>
-      <a class="tab" href="#lucy" data-tab="lucy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.6-7 10-7 10z"/></svg>Lucy</a>
-      <a class="tab" href="#guestbook" data-tab="guestbook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 012-2h12v16H6a2 2 0 00-2 2z"/><path d="M4 21V5M9 8h6M9 12h4"/></svg>Notes</a>
-      <a class="tab" href="#fun" data-tab="fun"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.5 6.7 19.4l1.2-6L3.4 9.3l6-.7z"/></svg>Fun</a>
+      <a class="tab" href="#invite" data-tab="invite"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Invite</a>
+      <a class="tab" href="#rsvp" data-tab="rsvp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>RSVP</a>
+      <a class="tab" href="#venue" data-tab="venue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-12a7 7 0 10-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>Venue</a>
+      <a class="tab" href="#lucy" data-tab="lucy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.6-7 10-7 10z"/></svg>Lucy</a>
+      <a class="tab" href="#guestbook" data-tab="guestbook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 012-2h12v16H6a2 2 0 00-2 2z"/><path d="M4 21V5M9 8h6M9 12h4"/></svg>Notes</a>
+      <a class="tab" href="#fun" data-tab="fun"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.5 6.7 19.4l1.2-6L3.4 9.3l6-.7z"/></svg>Fun</a>
     </nav>
   </div>
 </header>
@@ -404,25 +412,35 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
 <!-- ================= INVITE ================= -->
 <section class="panel" id="panel-invite" data-panel="invite" aria-labelledby="h-invite">
   <div class="card hero">
-    <svg class="balloon b1" aria-hidden="true"><use href="#balloon"/></svg>
-    <svg class="balloon b2" aria-hidden="true"><use href="#balloon"/></svg>
-    <svg class="balloon b3" aria-hidden="true"><use href="#balloon"/></svg>
-    <svg class="balloon b4" aria-hidden="true"><use href="#balloon"/></svg>
-    <p class="eyebrow">You're invited</p>
-    <svg class="bear" viewBox="0 0 200 190" role="img" aria-label="Teddy bear"><use href="#bear"/></svg>
-    <h1 id="h-invite">We Can Bearly Wait!</h1>
-    <p class="for">A traditional afternoon tea for <em>Lucy's</em> baby shower</p>
-    <svg class="gold-rule" aria-hidden="true"><use href="#rule"/></svg>
-    <div class="facts">
-      <div class="fact"><div class="k">Date</div><div class="v">Saturday 30th January 2027</div></div>
-      <div class="fact"><div class="k">Time</div><div class="v">2:30 PM – 5:30 PM</div></div>
-      <div class="fact"><div class="k">Venue</div><div class="v">Bryn Meadows Golf, Hotel &amp; Spa, Maesycwmmer</div></div>
-      <div class="fact"><div class="k">Dress code</div><div class="v">Afternoon tea attire. Soft pastels &amp; florals welcome</div></div>
-    </div>
-    <div class="actions">
-      <a class="btn btn-primary" href="#rsvp">RSVP now</a>
-      <a class="btn btn-soft" href="lucys-baby-shower.ics"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Add to calendar</a>
-      <a class="btn btn-ghost" id="gcal" target="_blank" rel="noopener">Google Calendar</a>
+    <div class="hero-art"><img src="art/bear-balloons.jpg" alt="Watercolour teddy bear floating on pink and cream balloons" width="580" height="1025"></div>
+    <div class="hero-text">
+      <h1 id="h-invite" style="display:grid">
+        <span class="caps-sm">WE CAN</span>
+        <span class="caps-lg">BEARLY</span>
+        <span class="wait">Wait</span>
+      </h1>
+      <div class="divider" aria-hidden="true"><svg><use href="#heart"/></svg></div>
+      <p class="join">PLEASE JOIN US FOR</p>
+      <p class="lucys">LUCY'S</p>
+      <p class="shower">Baby Shower</p>
+      <div class="plaque">
+        <p>TRADITIONAL<br>AFTERNOON TEA</p>
+        <svg class="sprig" aria-hidden="true"><use href="#sprig"/></svg>
+      </div>
+      <div class="details">
+        <div>Bryn Meadows<br>Maesycwmmer<br>Ystrad Mynach<br>Caerphilly<br>CF82 7SN</div>
+        <div class="divider" aria-hidden="true"><svg><use href="#heart"/></svg></div>
+        <div class="date">Saturday 30<sup>th</sup> January 2027</div>
+        <div class="divider" aria-hidden="true"><svg><use href="#heart"/></svg></div>
+        <div>2.30pm – 5.30pm</div>
+      </div>
+      <p class="dress">Dress code: afternoon tea attire. Soft pastels &amp; florals welcome.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#rsvp">RSVP now</a>
+        <a class="btn btn-soft" href="lucys-baby-shower.ics"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Add to calendar</a>
+        <a class="btn btn-ghost" id="gcal" target="_blank" rel="noopener">Google Calendar</a>
+        <button class="btn btn-ghost" type="button" data-lightbox="art/invitation.jpg" data-cap="Lucy's Baby Shower invitation">View the invitation</button>
+      </div>
     </div>
   </div>
 
@@ -431,24 +449,25 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
       <p class="eyebrow">Countdown</p>
       <h2>Until the teacups come out</h2>
       <div class="countdown" id="countdown" aria-live="off">
-        <div class="cd-unit"><div class="cd-num" id="cd-d">--</div><div class="cd-lbl">Days</div></div>
-        <div class="cd-unit"><div class="cd-num" id="cd-h">--</div><div class="cd-lbl">Hours</div></div>
-        <div class="cd-unit"><div class="cd-num" id="cd-m">--</div><div class="cd-lbl">Mins</div></div>
-        <div class="cd-unit"><div class="cd-num" id="cd-s">--</div><div class="cd-lbl">Secs</div></div>
+        <div class="cd-unit"><div class="cd-num" id="cd-d">--</div><div class="cd-lbl">DAYS</div></div>
+        <div class="cd-unit"><div class="cd-num" id="cd-h">--</div><div class="cd-lbl">HOURS</div></div>
+        <div class="cd-unit"><div class="cd-num" id="cd-m">--</div><div class="cd-lbl">MINS</div></div>
+        <div class="cd-unit"><div class="cd-num" id="cd-s">--</div><div class="cd-lbl">SECS</div></div>
       </div>
       <p class="cd-done" id="cd-done" hidden>It's shower day!</p>
-      <p class="note">Counting down to 2:30 PM on Saturday 30th January 2027.</p>
+      <p class="note">Counting down to 2.30pm on Saturday 30th January 2027.</p>
     </div>
 
     <div class="card">
       <p class="eyebrow">What's happening</p>
       <h2>The afternoon</h2>
+      <img class="tea-art" src="art/tea-set.jpg" alt="Watercolour afternoon tea stand with cakes, sandwiches, scones and a floral teapot" width="582" height="714" loading="lazy">
       <ol class="timeline">
-        <li><span class="t">2:30 PM</span><span class="dot"></span><div class="what"><b>Arrivals &amp; welcome</b><span>Find your seat and say hello to Lucy</span></div></li>
-        <li><span class="t">3:00 PM</span><span class="dot"></span><div class="what"><b>Afternoon tea is served</b><span>Sandwiches, scones, cakes and plenty of tea</span></div></li>
-        <li><span class="t">4:00 PM</span><span class="dot"></span><div class="what"><b>Shower games</b><span>Baby predictions and a few surprises</span></div></li>
-        <li><span class="t">4:45 PM</span><span class="dot"></span><div class="what"><b>Gifts &amp; cards</b><span>Time for Lucy to open everything</span></div></li>
-        <li><span class="t">5:30 PM</span><span class="dot"></span><div class="what"><b>Goodbyes</b><span>Hugs all round</span></div></li>
+        <li><span class="t">2.30pm</span><span class="dot"></span><div class="what"><b>Arrivals &amp; welcome</b><span>Find your seat and say hello to Lucy</span></div></li>
+        <li><span class="t">3.00pm</span><span class="dot"></span><div class="what"><b>Afternoon tea is served</b><span>Sandwiches, scones, cakes and plenty of tea</span></div></li>
+        <li><span class="t">4.00pm</span><span class="dot"></span><div class="what"><b>Shower games</b><span>Baby predictions and a few surprises</span></div></li>
+        <li><span class="t">4.45pm</span><span class="dot"></span><div class="what"><b>Gifts &amp; cards</b><span>Time for Lucy to open everything</span></div></li>
+        <li><span class="t">5.30pm</span><span class="dot"></span><div class="what"><b>Goodbyes</b><span>Hugs all round</span></div></li>
       </ol>
       <p class="note">Times are a rough guide and may shift on the day.</p>
     </div>
@@ -463,6 +482,7 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
       <h2 id="h-rsvp">Will you join us for tea?</h2>
       <p class="lede">Fill this in, then tap <b>Send to <span class="host-name">Katie</span></b> so she gets your answer on WhatsApp. That way the afternoon tea can be ordered for the right number and everyone's diet is covered.</p>
     </div>
+    <div class="divider left" aria-hidden="true"><svg><use href="#heart"/></svg></div>
 
     <form id="rsvp-form" novalidate>
       <div class="field">
@@ -507,7 +527,7 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
       <h3 id="rsvp-confirm-title">Thank you!</h3>
       <dl class="summary" id="rsvp-summary"></dl>
       <div class="actions left">
-        <a class="btn btn-wa" id="rsvp-wa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.1-1.3c0-.1-.2-.2-.4-.3z"/></svg>Send to <span class="host-name">Katie</span></a>
+        <a class="btn btn-wa" id="rsvp-wa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.500-.7-1.700-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 01-3.300-2.900c-.2-.4.2-.4.7-1.300.1-.2 0-.3 0-.4l-.8-1.800c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.200 5.200 5.200 0 001.100 2.700 11.800 11.800 0 004.500 4c1.700.7 2.300.8 3.200.6a2.700 2.700 0 001.800-1.300 2.200 2.200 0 00.1-1.300c0-.1-.2-.2-.4-.3z"/></svg>Send to <span class="host-name">Katie</span></a>
         <button class="btn btn-ghost" type="button" id="rsvp-edit">Change my answer</button>
       </div>
       <p class="share-tip">Your RSVP is saved on this phone. It only reaches <span class="host-name">Katie</span> once you send it.</p>
@@ -520,7 +540,8 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
   <div class="grid-2">
     <div class="card">
       <p class="eyebrow">Location &amp; directions</p>
-      <h2 id="h-venue">Bryn Meadows Golf, Hotel &amp; Spa</h2>
+      <h2 id="h-venue">Bryn Meadows</h2>
+      <p style="margin:0;font-weight:700">Golf, Hotel &amp; Spa</p>
       <address class="address">Maesycwmmer<br>Ystrad Mynach<br>Caerphilly<br>CF82 7SN</address>
       <div class="actions left">
         <a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=Bryn+Meadows+Golf+Hotel+%26+Spa%2C+Maesycwmmer%2C+CF82+7SN"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-8-8 18-2-8z"/></svg>Get directions</a>
@@ -528,9 +549,9 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
         <button class="btn btn-ghost" type="button" id="copy-address">Copy address</button>
       </div>
     </div>
-    <a class="card mapcard" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Bryn+Meadows+Golf+Hotel+%26+Spa+CF82+7SN" style="text-decoration:none">
+    <a class="card mapcard" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Bryn+Meadows+Golf+Hotel+%26+Spa+CF82+7SN">
       <div>
-        <svg class="pin" viewBox="0 0 24 24" fill="currentColor"><path d="M12 22s8-7 8-13a8 8 0 10-16 0c0 6 8 13 8 13z"/><circle cx="12" cy="9" r="3" fill="#FFFDFB"/></svg>
+        <svg class="pin" viewBox="0 0 24 24" fill="currentColor"><path d="M12 22s8-7 8-13a8 8 0 10-16 0c0 6 8 13 8 13z"/><circle cx="12" cy="9" r="3" fill="#FFFFFF"/></svg>
         <div class="postcode">CF82 7SN</div>
         <p class="note" style="margin-top:2px">Tap to open the map</p>
       </div>
@@ -541,14 +562,14 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
     <p class="eyebrow">Travel tips</p>
     <h2>Getting there</h2>
     <ul class="tips">
-      <li><span class="tip-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17h14M6 17l1.5-6h9L18 17M4 17v3M20 17v3"/><circle cx="8" cy="14" r="1"/><circle cx="16" cy="14" r="1"/></svg></span>
+      <li><span class="tip-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17h14M6 17l1.5-6h9L18 17M4 17v3M20 17v3"/><circle cx="8" cy="14" r="1"/><circle cx="16" cy="14" r="1"/></svg></span>
         <div><b>Driving</b><p>Put <b>CF82 7SN</b> into your sat nav. The hotel sits just off the A472 between Ystrad Mynach and Maesycwmmer, around 20–30 minutes from Cardiff or Newport. Leave a little extra time on a Saturday afternoon.</p></div></li>
-      <li><span class="tip-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 16V8h4a2.5 2.5 0 010 5H9"/></svg></span>
+      <li><span class="tip-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 16V8h4a2.5 2.5 0 010 5H9"/></svg></span>
         <div><b>Parking</b><p>The hotel has its own car park for guests, so there's no need to find street parking. Car sharing is a good idea if you're coming from the same way as others in the group.</p></div></li>
-      <li><span class="tip-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="3" width="12" height="14" rx="3"/><path d="M6 11h12M9 21l1.5-3M15 21l-1.5-3"/><circle cx="9" cy="14" r=".8"/><circle cx="15" cy="14" r=".8"/></svg></span>
+      <li><span class="tip-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="3" width="12" height="14" rx="3"/><path d="M6 11h12M9 21l1.5-3M15 21l-1.5-3"/><circle cx="9" cy="14" r=".8"/><circle cx="15" cy="14" r=".8"/></svg></span>
         <div><b>By train</b><p>The nearest stations are <b>Ystrad Mynach</b> and <b>Hengoed</b>, both on the Rhymney line from Cardiff Queen Street / Cardiff Central. From either station it's a short taxi ride to the hotel. <a href="https://tfw.wales/" target="_blank" rel="noopener">Check Transport for Wales times</a>.</p></div></li>
-      <li><span class="tip-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
-        <div><b>Taxis</b><p>Book your taxi home in advance. Saturday evenings get busy and 5:30 PM comes round quickly once the cake is out.</p></div></li>
+      <li><span class="tip-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <div><b>Taxis</b><p>Book your taxi home in advance. Saturday evenings get busy and 5.30pm comes round quickly once the cake is out.</p></div></li>
     </ul>
   </div>
 </section>
@@ -558,7 +579,8 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
   <div class="card">
     <p class="eyebrow">Meet the mum-to-be</p>
     <h2 id="h-lucy">Lucy &amp; the little one</h2>
-    <div class="welcome" style="margin-top:12px">
+    <div class="divider left" aria-hidden="true"><svg><use href="#heart"/></svg></div>
+    <div class="welcome">
       <p>Two little lines, a first scan, and one very happy Lucy. This baby is already so loved, and we couldn't let the big arrival happen without a proper celebration.</p>
       <p>So we're putting the kettle on, dressing the tables in pink and gold and gathering everyone who'll be cheering this baby on. Come hungry, bring your best guesses and get ready for a lot of cake.</p>
       <p class="sign">With love, <span class="host-name">Katie</span></p>
@@ -566,11 +588,11 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
   </div>
 
   <div class="gallery" id="gallery">
-    <button class="ph g1" type="button" data-src="photos/lucy-scan-strip.jpg" data-cap="Lucy with the scan strip and the Oh Baby cake"><img src="photos/lucy-scan-strip.jpg" alt="Lucy holding a strip of baby scan photos and an Oh Baby cake" loading="lazy"><span class="cap">Scan strip &amp; the Oh Baby cake</span></button>
-    <button class="ph g2" type="button" data-src="photos/lucy-and-partner.jpg" data-cap="The big news, cake and all"><img src="photos/lucy-and-partner.jpg" alt="Lucy and partner smiling, holding an Oh Baby cake" loading="lazy"><span class="cap">The big news, cake and all</span></button>
-    <button class="ph g3" type="button" data-src="photos/first-scan.jpg" data-cap="First scan"><img src="photos/first-scan.jpg" alt="Lucy and partner holding the first scan photo" loading="lazy"><span class="cap">First scan</span></button>
-    <button class="ph g4" type="button" data-src="photos/keepsakes.jpg" data-cap="Two lines, one babygrow and a scan photo"><img src="photos/keepsakes.jpg" alt="Pregnancy tests, a hot-air-balloon babygrow, scan photo, cupcakes and cake" loading="lazy"><span class="cap">The keepsakes</span></button>
-    <button class="ph g5" type="button" data-src="photos/cupcakes.jpg" data-cap="Oh Baby cupcakes"><img src="photos/cupcakes.jpg" alt="Boxes of cream and gold Oh Baby cupcakes with a small cake" loading="lazy"><span class="cap">Oh Baby cupcakes</span></button>
+    <button class="ph g1" type="button" data-lightbox="photos/lucy-scan-strip.jpg" data-cap="Lucy with the scan strip and the Oh Baby cake"><img src="photos/lucy-scan-strip.jpg" alt="Lucy holding a strip of baby scan photos and an Oh Baby cake" loading="lazy"><span class="cap">Scan strip &amp; the Oh Baby cake</span></button>
+    <button class="ph g2" type="button" data-lightbox="photos/lucy-and-partner.jpg" data-cap="The big news, cake and all"><img src="photos/lucy-and-partner.jpg" alt="Lucy and partner smiling, holding an Oh Baby cake" loading="lazy"><span class="cap">The big news, cake and all</span></button>
+    <button class="ph g3" type="button" data-lightbox="photos/first-scan.jpg" data-cap="First scan"><img src="photos/first-scan.jpg" alt="Lucy and partner holding the first scan photo" loading="lazy"><span class="cap">First scan</span></button>
+    <button class="ph g4" type="button" data-lightbox="photos/keepsakes.jpg" data-cap="Two lines, one babygrow and a scan photo"><img src="photos/keepsakes.jpg" alt="Pregnancy tests, a hot-air-balloon babygrow, scan photo, cupcakes and cake" loading="lazy"><span class="cap">The keepsakes</span></button>
+    <button class="ph g5" type="button" data-lightbox="photos/cupcakes.jpg" data-cap="Oh Baby cupcakes"><img src="photos/cupcakes.jpg" alt="Boxes of cream and gold Oh Baby cupcakes with a small cake" loading="lazy"><span class="cap">Oh Baby cupcakes</span></button>
   </div>
 
   <div class="card">
@@ -619,7 +641,7 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
     <div style="display:grid;gap:14px;margin-top:14px">
       <label class="dropzone" id="dropzone" for="photo-input">
         <input type="file" id="photo-input" accept="image/*" multiple>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
         <b>Tap to choose photos</b>
         <span class="hint">or drag them here</span>
       </label>
@@ -673,7 +695,7 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
       <p class="eyebrow">Baby name suggestions</p>
       <h2>Name ideas box</h2>
       <p class="lede">Pop in as many as you like. Sensible, silly, or named after you.</p>
-      <form class="inline-form" id="name-form" novalidate style="margin-top:14px;display:flex">
+      <form class="inline-form" id="name-form" novalidate style="margin-top:14px">
         <label for="name-input" class="hint" style="flex-basis:100%">Name idea</label>
         <input type="text" id="name-input" maxlength="40" placeholder="e.g. Rosie, Teddy, Willow">
         <button class="btn btn-primary" type="submit">Add</button>
@@ -688,7 +710,7 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
       <p class="eyebrow">Gifts</p>
       <h2>Gift registry &amp; wishlist</h2>
       <div class="gift" style="margin-top:14px">
-        <span class="gift-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="9" width="18" height="12" rx="2"/><path d="M3 13h18M12 9v12M12 9C10 5 6 5 6 7.5S10 9 12 9zm0 0c2-4 6-4 6-1.5S14 9 12 9z"/></svg></span>
+        <span class="gift-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="9" width="18" height="12" rx="2"/><path d="M3 13h18M12 9v12M12 9C10 5 6 5 6 7.5S10 9 12 9zm0 0c2-4 6-4 6-1.5S14 9 12 9z"/></svg></span>
         <div>
           <p style="margin:0" id="gift-text">Your company is the best present. If you'd like to bring something, a registry link will appear here soon. Nappies in any size, a favourite children's book with a note inside, or something for Lucy to treat herself are always loved.</p>
           <div class="actions left" id="gift-actions" hidden><a class="btn btn-primary" id="gift-link" target="_blank" rel="noopener">View the registry</a></div>
@@ -700,12 +722,12 @@ footer .script { font-family: var(--font-script); font-size: 1.6rem; color: var(
 
 <footer>
   <span class="script">We can bearly wait</span>
-  Lucy's Baby Shower · Bryn Meadows · Saturday 30th January 2027
+  <span class="caps">LUCY'S BABY SHOWER · BRYN MEADOWS · 30.01.2027</span>
 </footer>
 </main>
 
 <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo">
-  <button class="lb-close" type="button" id="lb-close" aria-label="Close photo">×</button>
+  <button class="lb-close" type="button" id="lb-close" aria-label="Close">×</button>
   <div><img id="lb-img" alt=""><p id="lb-cap"></p></div>
 </div>
 <div class="toast" id="toast" role="status" hidden></div>
@@ -759,7 +781,7 @@ $('#gcal').href = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
   + '&text=' + encodeURIComponent("Lucy's Baby Shower – Afternoon Tea")
   + '&dates=20270130T143000Z/20270130T173000Z'
   + '&location=' + encodeURIComponent('Bryn Meadows Golf, Hotel & Spa, Maesycwmmer, Ystrad Mynach, Caerphilly CF82 7SN')
-  + '&details=' + encodeURIComponent('We Can Bearly Wait! Dress code: afternoon tea attire. ' + CONFIG.siteUrl);
+  + '&details=' + encodeURIComponent('We Can Bearly Wait! Traditional afternoon tea. Dress code: afternoon tea attire. ' + CONFIG.siteUrl);
 
 /* ---- countdown ---- */
 function tick() {
@@ -817,10 +839,11 @@ $('#rsvp-edit').addEventListener('click', () => {
 /* ---- venue ---- */
 $('#copy-address').addEventListener('click', () => copy('Bryn Meadows Golf, Hotel & Spa, Maesycwmmer, Ystrad Mynach, Caerphilly, CF82 7SN'));
 
-/* ---- gallery lightbox ---- */
+/* ---- lightbox (photos + the invitation) ---- */
 const lb = $('#lightbox');
-$$('#gallery .ph').forEach(b => b.addEventListener('click', () => {
-  $('#lb-img').src = b.dataset.src; $('#lb-img').alt = b.querySelector('img').alt; $('#lb-cap').textContent = b.dataset.cap;
+$$('[data-lightbox]').forEach(b => b.addEventListener('click', () => {
+  const img = b.querySelector('img');
+  $('#lb-img').src = b.dataset.lightbox; $('#lb-img').alt = img ? img.alt : b.dataset.cap; $('#lb-cap').textContent = b.dataset.cap;
   lb.hidden = false; $('#lb-close').focus();
 }));
 const closeLb = () => (lb.hidden = true);
@@ -834,12 +857,12 @@ function gbText(n) { return `${n.kind === 'Advice' ? 'Advice' : n.kind === 'Wish
 function renderNotes() {
   const list = $('#gb-list');
   if (!notes.length) {
-    list.innerHTML = `<div class="empty"><svg viewBox="0 0 200 190"><use href="#bear"/></svg>Nothing here yet. Write the first note for Lucy.</div>`;
+    list.innerHTML = `<div class="empty"><img src="art/bear-head.jpg" alt="">Nothing here yet. Write the first note for Lucy.</div>`;
     return;
   }
   list.innerHTML = notes.map((n, i) => `
     <article class="entry">
-      <div class="entry-top"><span class="entry-name">${esc(n.name)}</span><span class="pill ${n.kind.toLowerCase()}">${esc(n.kind === 'Note' ? 'Sweet note' : n.kind)}</span></div>
+      <div class="entry-top"><span class="entry-name">${esc(n.name)}</span><span class="pill ${n.kind.toLowerCase()}">${esc(n.kind === 'Note' ? 'SWEET NOTE' : n.kind.toUpperCase())}</span></div>
       <p class="entry-msg">${esc(n.msg)}</p>
       <div class="entry-actions"><a class="linkbtn" href="${wa(gbText(n))}" target="_blank" rel="noopener">Share to the group</a><button class="linkbtn muted" type="button" data-del="${i}">Remove</button></div>
     </article>`).join('');
@@ -917,7 +940,7 @@ $('#pred-edit').addEventListener('click', () => {
 /* ---- names ---- */
 let names = store.get('names', []);
 function renderNames() {
-  $('#name-chips').innerHTML = names.map((n, i) => `<span class="chip${i % 2 ? ' blue' : ''}">${esc(n)}<button type="button" data-n="${i}" aria-label="Remove ${esc(n)}">×</button></span>`).join('');
+  $('#name-chips').innerHTML = names.map((n, i) => `<span class="chip${i % 2 ? ' cream' : ''}">${esc(n)}<button type="button" data-n="${i}" aria-label="Remove ${esc(n)}">×</button></span>`).join('');
   $('#name-actions').hidden = !names.length;
   $('#name-wa').href = wa(`Baby name ideas for Lucy 🧸\n${names.join(', ')}\n\nAdd yours: ${CONFIG.siteUrl}#fun`);
 }
